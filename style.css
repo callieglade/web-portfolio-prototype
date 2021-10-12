@@ -7,8 +7,9 @@ div#ascii-name {
     font-family: 'Courier New', Courier, monospace;
     color: rgb(245, 82, 115);
     font-weight: bold;
+    line-height: 10px;
 }
   
 header {
-    line-height: 10px;
+    text-align: center;
 }
