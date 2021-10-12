@@ -1,0 +1,13 @@
+
+body {
+    background-color: rgb(32, 40, 48);
+  }
+  
+  pre {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+  }
+  
+  header {
+    line-height: 10px;
+  }
