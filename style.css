@@ -49,3 +49,16 @@ h3 {
 footer {
     margin-bottom: 5em;
 }
+
+.links {
+    margin: auto 45%;
+    text-align: left;
+    font-family: 'Consolas', 'Courier New', Courier, monospace;
+    font-size: x-large;
+  }
+
+  a {text-decoration-line: none;} /* This removes the text underline normally seen with web links*/
+  a:link {color: white;}
+  a:visited {color: rgb(245, 82, 115);}
+  a:hover {color: rgb(21, 223, 155);}
+  a:active {color: deepskyblue;}
