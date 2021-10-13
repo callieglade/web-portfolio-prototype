@@ -18,13 +18,14 @@ div#ascii-name {
 h1 {
     font-family: 'Consolas', 'Courier New', Courier, monospace;
     color: rgb(21, 223, 155);
-    font-weight: 400;
     padding: 40px;
 }
 
 h2 {
     font-family: 'Consolas', 'Courier New', Courier, monospace;
     color: white;
+    font-size: 175%;
+    font-weight: 400;
 }
 
 main {
