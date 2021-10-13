@@ -26,3 +26,8 @@ h2 {
     font-family: 'Consolas', 'Courier New', Courier, monospace;
     color: white;
 }
+
+main {
+    margin-left: 20%;
+    margin-right: 20%;
+}
