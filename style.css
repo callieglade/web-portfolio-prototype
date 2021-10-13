@@ -31,6 +31,7 @@ h2 {
 main {
     margin-left: 20%;
     margin-right: 20%;
+    margin-bottom: 4em;
 }
 
 h3 {
@@ -45,6 +46,3 @@ h3 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-img {
-    height: 500;
-}
