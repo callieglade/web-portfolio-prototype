@@ -12,11 +12,20 @@
 <body>
     <header class="center">
         <div id="ascii-name">
-            <pre> ______   ______   __       __       __   ______       ______   __       ______   _____    ______    </pre>
-            <pre>/\  ___\ /\  __ \ /\ \     /\ \     /\ \ /\  ___\     /\  ___\ /\ \     /\  __ \ /\  __-. /\  ___\   </pre>
-            <pre>\ \ \____\ \  __ \\ \ \____\ \ \____\ \ \\ \  __\     \ \ \__ \\ \ \____\ \  __ \\ \ \/\ \\ \  __\   </pre>
-            <pre> \ \_____\\ \_\ \_\\ \_____\\ \_____\\ \_\\ \_____\    \ \_____\\ \_____\\ \_\ \_\\ \____- \ \_____\ </pre>
-            <pre>  \/_____/ \/_/\/_/ \/_____/ \/_____/ \/_/ \/_____/     \/_____/ \/_____/ \/_/\/_/ \/____/  \/_____/ </pre>
+            <!-- This text effect needs the preformatting tag in order for the text to display as intended.
+            This means that the text will be displayed as monospaced text exactly as it is in the HTML file, including whitespace.
+            In order for this to work, it needs to be wrapped in a div container, which all styles will be applied to.
+            tags such as "figure" and "figcaption" are also added to allow the text to be read by screenreaders.-->
+            <figure role="img" aria-labelledby="ascii-name-caption">
+                <pre> ______   ______   __       __       __   ______       ______   __       ______   _____    ______    </pre>
+                <pre>/\  ___\ /\  __ \ /\ \     /\ \     /\ \ /\  ___\     /\  ___\ /\ \     /\  __ \ /\  __-. /\  ___\   </pre>
+                <pre>\ \ \____\ \  __ \\ \ \____\ \ \____\ \ \\ \  __\     \ \ \__ \\ \ \____\ \  __ \\ \ \/\ \\ \  __\   </pre>
+                <pre> \ \_____\\ \_\ \_\\ \_____\\ \_____\\ \_\\ \_____\    \ \_____\\ \_____\\ \_\ \_\\ \____- \ \_____\ </pre>
+                <pre>  \/_____/ \/_/\/_/ \/_____/ \/_____/ \/_/ \/_____/     \/_____/ \/_____/ \/_/\/_/ \/____/  \/_____/ </pre>
+                <figcaption id="ascii-name-caption">
+                    At the top of the page is some blocky, slanted ASCII art which reads the name "Callie Glade".
+                </figcaption>
+            </figure>
         </div>
         <h1>Network Engineer / Web Developer / Linux Administrator</h1>
     </header>
